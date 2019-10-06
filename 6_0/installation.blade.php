@@ -4,7 +4,7 @@
     <h1>Installation</h1>
 
     <p>
-        To install CRUDBooster, your system or server must be meet with the requirement bellow:
+        These bellow are CRUDBooster system requirements
     </p>
     <p>
         <ul>
