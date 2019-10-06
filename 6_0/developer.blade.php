@@ -19,7 +19,10 @@ URL: http://localhost/crudbooster/public/developer/E7aoZdkBibDKETHB/login
 Username: acwyu
 Password: hDSntA5uCTTKHauE</code></pre>
     </p>
-
-
-
+    <br>
+    <div class="alert alert-info">
+    <h2>What Should I Do?</h2>
+    <p>Login with developer area credential above. In this developer area, you need to create module (Using Module Generator), create roles, and create user. Because this area only for super admin manage the "super master data".
+    After  you have create user, you can logout and login with standard login path (not developer login path).</p>
+    </div>
 @endsection

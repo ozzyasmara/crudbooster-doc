@@ -24,6 +24,20 @@
                 "display_option" => "name",
                 "sql_condition" => "name != 'Jakarta'"
             ]);
+
+    // If you want to select with graded select for example bellow
+    $this->addSelectTable("Province","provinces_id",[
+                "table"         => "provinces",
+                "value_option"  => "id",
+                "display_option" => "name",
+                "sql_condition" => null
+            ]);
+    $this->addSelectTable("City","cities_id",[
+                "table"         => "cities",
+                "value_option"  => "id",
+                "display_option" => "name",
+                "sql_condition" => null
+            ])->foreignKey("provinces_id"); // Add foreignKey() fill with parent name
 }</code></pre>
     </p>
 

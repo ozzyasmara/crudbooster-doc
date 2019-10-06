@@ -73,6 +73,10 @@
         </li>
 
         <li>
+            <a class="{{ request()->is("docs/sub-module")?"active":"" }} font-bold" href="{{ url("docs/sub-module") }}">Sub Module</a>
+        </li>
+
+        <li>
             <a href="javascript:;" class="font-bold">Additional</a>
             <ul class="list-unstyled">
                 <li><a class="{{ request()->is("docs/additional-element")?"active":"" }}" href="{{ url("docs/additional-element") }}">Additional Element</a></li>
