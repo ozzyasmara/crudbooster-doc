@@ -64,26 +64,44 @@
             </ul>
         </li>
 
-        <li>
-            <a class="{{ request()->is("docs/filter")?"active":"" }} font-bold" href="{{ url("docs/filter") }}">Filter</a>
-        </li>
+
 
         <li>
-            <a class="{{ request()->is("docs/hook")?"active":"" }} font-bold" href="{{ url("docs/hook") }}">Hook</a>
-        </li>
-
-        <li>
-            <a class="{{ request()->is("docs/sub-module")?"active":"" }} font-bold" href="{{ url("docs/sub-module") }}">Sub Module</a>
-        </li>
-
-        <li>
-            <a href="javascript:;" class="font-bold">Additional</a>
+            <a href="javascript:;" class="font-bold">Advanced</a>
             <ul class="list-unstyled">
-                <li><a class="{{ request()->is("docs/additional-element")?"active":"" }}" href="{{ url("docs/additional-element") }}">Additional Element</a></li>
-                <li><a class="{{ request()->is("docs/additional-custom-input")?"active":"" }}" href="{{ url("docs/additional-custom-input") }}">Additional Custom Input</a></li>
-                <li><a class="{{ request()->is("docs/additional-action-button")?"active":"" }}" href="{{ url("docs/additional-action-button") }}">Additional Action Button</a></li>
+                <li>
+                    <a class="{{ request()->is("docs/filter")?"active":"" }}" href="{{ url("docs/filter") }}">Filter</a>
+                </li>
+
+                <li>
+                    <a class="{{ request()->is("docs/hook")?"active":"" }}" href="{{ url("docs/hook") }}">Hook</a>
+                </li>
+
+                <li>
+                    <a class="{{ request()->is("docs/sub-module")?"active":"" }}" href="{{ url("docs/sub-module") }}">Sub Module</a>
+                </li>
+
+                <li>
+                    <a class="{{ request()->is("docs/javascript-style")?"active":"" }}" href="{{ url("docs/javascript-style") }}">Javascript & Stylesheet</a>
+                </li>
+
+                <li>
+                    <a class="{{ request()->is("docs/hide-button")?"active":"" }}" href="{{ url("docs/hide-button") }}">Hide Action Button</a>
+                </li>
+
+                <li>
+                    <a href="javascript:;" class="font-bold">Additional</a>
+                    <ul class="list-unstyled">
+                        <li><a class="{{ request()->is("docs/additional-element")?"active":"" }}" href="{{ url("docs/additional-element") }}">&nbsp;&nbsp;Additional Element</a></li>
+                        <li><a class="{{ request()->is("docs/additional-custom-input")?"active":"" }}" href="{{ url("docs/additional-custom-input") }}">&nbsp;&nbsp;Additional Custom Input</a></li>
+                        <li><a class="{{ request()->is("docs/additional-index-button")?"active":"" }}" href="{{ url("docs/additional-index-button") }}">&nbsp;&nbsp;Additional Index Button</a></li>
+                        <li><a class="{{ request()->is("docs/additional-action-button")?"active":"" }}" href="{{ url("docs/additional-action-button") }}">&nbsp;&nbsp;Additional Action Button</a></li>
+                    </ul>
+                </li>
             </ul>
         </li>
+
+
 
         <li>
             <a href="javascript:;" class="font-bold">Helpers</a>

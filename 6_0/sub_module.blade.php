@@ -5,6 +5,10 @@
 
     <p>Sometime we need to create sub module, for example you have module Province, then you can see City Module over province module by click a button</p>
 
+    <p>
+        <img width="100%" src="{{ asset("asset/images/sub-module.png") }}" alt="">
+    </p>
+    
     <p>Let say this bellow is Province controller</p>
     <p>
         <pre><code class="language-php">public function cbInit() {
