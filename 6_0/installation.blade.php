@@ -35,7 +35,7 @@
     <h2 class="mt-4">CRUDBooster</h2>
     <p>Point the directory at laravel root directory, and run the bellow command: </p>
     <p>
-        <pre><code class="language-bash">composer require crocodicstudio/crudbooster=6.*</code></pre>
+        <pre><code class="language-bash">composer require crocodicstudio/crudbooster=6.0-beta.*</code></pre>
     </p>
     <p>
         Create a new empty Database, and setting the <code>.env</code> file like bellow
