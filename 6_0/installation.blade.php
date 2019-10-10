@@ -11,10 +11,10 @@
             <li>PHP version 7.2 or above</li>
             <li>Laravel 5.7 or above</li>
             <li>Composer</li>
+            <li>OPCache PHP Extension (Very Recommended!)</li>
             <li>BCMath PHP Extension</li>
             <li>Ctype PHP Extension</li>
             <li>JSON PHP Extension</li>
-            <li>OPCache PHP Extension</li>
             <li>Mbstring PHP Extension</li>
             <li>OpenSSL PHP Extension</li>
             <li>PDO PHP Extension</li>
